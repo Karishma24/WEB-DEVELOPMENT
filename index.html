@@ -1,0 +1,114 @@
+<html>
+<head>
+	<title>My Webpage</title>
+	<style>
+	body{
+	margin:0;
+	padding:0;
+	}
+	.navbar{
+	background-color:#563d7c;
+	display:flex;
+	height:50px;
+	justify-content:space-between;
+	font-size:20px;
+	}
+	#home{
+	color:white;
+	}
+	.nav-links{
+	display:flex;
+	}
+	.nav-links a:hover
+	{
+	color:white;
+	}
+	a{
+	text-decoration:none;
+	color:#cbbde2;
+	margin-left:10;
+	padding:15;
+	}
+	button{
+	text-align:center;
+	color:yellow;
+	background-color:#563d7c;
+	height:60%;
+	margin:10;
+	border:1px solid yellow;
+	width:110px;
+	}
+	.image{
+	height:100%;
+	width:65px;
+	margin-left:8;
+	}
+	button:hover
+	{
+	background-color:yellow;
+	color:black;
+	}
+	#main-head{
+	margin:50px;
+	color:#7952b3;
+	font-size:55px;
+	animation:move 2s;
+	}
+	.section1{
+	display:flex;
+	}
+	P{
+	font-size:20px;
+	letter-spacing:1px;
+	word-spacing:5px;
+	margin:50px
+	}
+	.section2{
+	width:55%;
+	}
+	.image2:hover{
+	transform: scale(0.8);
+	}
+	@keyframes move
+	{
+			0%{
+				opacity: 0;
+				transform: translateX(-40px);
+			}
+			50%{
+				opacity: 0.8;
+				transform: translateX(20px);
+			}
+			100%{
+				transform: translateX(0);
+			}
+	}
+	</style>
+</head>
+	<body>
+		<div class="navbar">
+		
+		<div class="nav-links">
+			<img src="https://getbootstrap.com/docs/4.4/assets/brand/bootstrap-social.png" class="image">
+			<a href="#" id="home">Home</a>
+			<a href="#">Documentation</a>
+			<a href="#">Examples</a>
+			<a href="#">Icons</a>
+			<a href="#">Themes</a>
+			<a href="#">Expo</a>
+			<a href="#">Blog</a>
+		</div>
+			<button type="button">Download</button>		
+		</div>
+		<div class="section1">
+		<div class="section2">
+			<h1 id="main-head">Bootstrap</h1>
+			<p > Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.<br><br>
+				Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build
+				your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+		</div>
+		<img src="https://colorlib.com/wp/wp-content/uploads/sites/2/bootstrap-wordpress-themes.jpg" class="image2" width="600px" height=" 500">
+		</div>	
+		
+	</body>
+</htnl>
